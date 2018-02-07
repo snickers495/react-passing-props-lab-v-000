@@ -7,13 +7,13 @@ const FruitBasket = (props) => {
   const filters = props.filters
   const selectedFilter = props.selectedFilter
   const handleFilterChange = props.handleFilterChange
-    return (
-      <div className="fruit-basket">
-        <Filter handleChange={handleFilterChange} />
-        <FilteredFruitList
-          filter={selectedFilter} />
-      </div>
-    );
+  return (
+    <div className="fruit-basket">
+      <Filter handleChange={handleFilterChange} />
+      <FilteredFruitList
+        filter={selectedFilter} />
+    </div>
+  );
 
 }
 
