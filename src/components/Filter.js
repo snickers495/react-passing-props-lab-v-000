@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 const Filter = (props) => {
-  const filter = props.filter
+  const filter = props.filter;
 
   componentWillMount() {
     this.fetchFilters();
@@ -13,7 +13,6 @@ const Filter = (props) => {
       .then(filters => this.setState({ filters }));
   }
 
-  render() {
     return (
       <select onChange={this.props.handleChange} defaultValue='all'>
         <option value='all'>All</option>
