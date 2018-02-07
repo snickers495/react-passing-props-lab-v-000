@@ -5,6 +5,7 @@ import FilteredFruitList from './FilteredFruitList.js';
 
 const FruitBasket = (props) => {
   const filters = props.state.filters
+  const items = props.state.items
   const selectedFilter = props.state.selectedFilter
   const handleFilterChange = props.handleFilterChange
   return (
