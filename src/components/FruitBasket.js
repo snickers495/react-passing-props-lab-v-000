@@ -12,7 +12,7 @@ const FruitBasket = (props) => {
     <div className="fruit-basket">
       <Filter handleChange={handleFilterChange} />
       <FilteredFruitList
-        selectedFilter={selectedFilter} items={filters}/>
+        selectedFilter={selectedFilter} items={items}/>
     </div>
   );
 
