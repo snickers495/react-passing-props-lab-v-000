@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-function Filter extends Component {
+const Filter extends Component {
   constructor() {
     super();
 
