@@ -11,6 +11,11 @@ export default class App extends React.Component {
       selectedFilter: null
     }
   }
+  componentDidMount() {
+    fetch('/api/fruit')
+      .then(response => response.json())
+      .then(items => this.setState({ items }));
+  }
 
   fetchFilters = () => {
     fetch('/api/fruit_types')
