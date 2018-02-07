@@ -10,7 +10,7 @@ const FilteredFruitList = (props)=> {
   }
 
   render() {
-    const list = !propFilter || propFilter === 'all' ? items : items.filter(i => i.fruit_type === ilter);
+    const list = !propFilter || propFilter === 'all' ? items : items.filter(i => i.fruit_type === propFilter);
 
     return (
       <ul className="fruit-list">
