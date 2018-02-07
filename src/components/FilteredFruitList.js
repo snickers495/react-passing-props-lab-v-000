@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 const FilteredFruitList = (props)=> {
   const items = props.items
-  const filter = props.filter
+  const propFilter = props.filter
   componentDidMount() {
     fetch('/api/fruit')
       .then(response => response.json())
@@ -10,7 +10,7 @@ const FilteredFruitList = (props)=> {
   }
 
   render() {
-    const list = !filter || filter === 'all' ? items : items.filter(i => i.fruit_type === this.props.filter);
+    const list = !filter || filter === 'all' ? items : items.filter(i => i.fruit_type === filter);
 
     return (
       <ul className="fruit-list">
