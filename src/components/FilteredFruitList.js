@@ -5,11 +5,7 @@ const FilteredFruitList = (props)=> {
   const propFilter = props.filter
   const list = !propFilter || propFilter === 'all' ? items : items.filter(i => i.fruit_type === propFilter);
 
-  componentDidMount() {
-    fetch('/api/fruit')
-      .then(response => response.json())
-      .then(items => this.setState({ items }));
-  }
+  
 
 
     return (
