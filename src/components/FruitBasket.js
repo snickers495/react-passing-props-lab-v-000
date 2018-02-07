@@ -8,7 +8,6 @@ const FruitBasket = (props) => {
   const selectedFilter = props.selectedFilter
   const handleFilterChange = props.handleFilterChange
 
-
   render() {
     return (
       <div className="fruit-basket">
