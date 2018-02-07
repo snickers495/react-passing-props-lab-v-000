@@ -7,8 +7,6 @@ const FruitBasket = (props) => {
   const filters = props.filters
   const selectedFilter = props.selectedFilter
   const handleFilterChange = props.handleFilterChange
-
-  render() {
     return (
       <div className="fruit-basket">
         <Filter handleChange={handleFilterChange} />
