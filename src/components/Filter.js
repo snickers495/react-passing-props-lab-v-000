@@ -1,13 +1,7 @@
 import React, { Component } from 'react';
 
 const Filter = (props) => {
-  constructor() {
-    super();
-
-    this.state = {
-      filters: []
-    };
-  }
+  
 
   componentWillMount() {
     this.fetchFilters();
