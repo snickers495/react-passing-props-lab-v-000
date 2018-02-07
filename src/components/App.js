@@ -28,7 +28,7 @@ export default class App extends React.Component {
 
   render(){
     return(
-      <FruitBasket handleFilterChange={this.handleFilterChange}/>;
+      <FruitBasket handleFilterChange={this.handleFilterChange} fetchFilters/>;
     )
   }
 }
