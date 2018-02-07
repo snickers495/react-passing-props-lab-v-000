@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 const Filter = (props) => {
   const filter = props.filter;
+  
 
     return (
       <select onChange={this.props.handleChange} defaultValue='all'>
