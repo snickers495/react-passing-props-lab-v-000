@@ -3,10 +3,6 @@ import React, { Component } from 'react';
 const Filter = (props) => {
   const filter = props.filter;
 
-  componentWillMount() {
-    this.fetchFilters();
-  }
-
 
     return (
       <select onChange={this.props.handleChange} defaultValue='all'>
