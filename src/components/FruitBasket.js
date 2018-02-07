@@ -13,7 +13,7 @@ const FruitBasket = (props) => {
       <div className="fruit-basket">
         <Filter handleChange={handleFilterChange} />
         <FilteredFruitList
-          filter={this.state.selectedFilter} />
+          filter={selectedFilter} />
       </div>
     );
   }
