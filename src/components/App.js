@@ -16,7 +16,6 @@ export default class App extends React.Component {
       .then(response => response.json())
       .then(items => this.setState({ items }));
   }
-
   fetchFilters = () => {
     fetch('/api/fruit_types')
       .then(response => response.json())
