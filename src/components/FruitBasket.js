@@ -10,7 +10,7 @@ const FruitBasket = (props) => {
   const handleFilterChange = props.handleFilterChange
   return (
     <div className="fruit-basket">
-      <Filter handleChange={handleFilterChange} filters={filters} filter=/>
+      <Filter handleChange={handleFilterChange} filters={filters} filter={selectedFilter}/>
       <FilteredFruitList
         selectedFilter={selectedFilter} items={items}/>
     </div>
