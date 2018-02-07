@@ -21,7 +21,6 @@ export default class App extends React.Component {
       .then(response => response.json())
       .then(filters => this.setState({ filters }));
   }
-
   handleFilterChange = event => {
     console.log('new filter: ', event.target.value);
     this.setState({ selectedFilter: event.target.value });
