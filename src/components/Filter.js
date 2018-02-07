@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 const Filter = (props) => {
-  const filters = props.filter;
+  const filter = props.filter;
   const handleChange = props.handleChange
 
 
