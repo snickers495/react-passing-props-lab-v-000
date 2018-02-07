@@ -3,7 +3,7 @@ import React, { Component }  from 'react';
 import Filter from './Filter';
 import FilteredFruitList from './FilteredFruitList.js';
 
-const FruitBasket extends Component {
+const FruitBasket = (Component) {
   constructor() {
     super();
 
