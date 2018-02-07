@@ -21,7 +21,7 @@ const Filter = (props) => {
         )}
       </select>
     );
-  }
+
 }
 
 export default Filter;
