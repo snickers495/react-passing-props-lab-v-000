@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-const FilteredFruitList = {
+const FilteredFruitList = ()=>{
   constructor(props) {
     super(props);
 
