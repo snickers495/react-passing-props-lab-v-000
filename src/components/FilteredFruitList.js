@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 const FilteredFruitList = (props)=> {
   const items = props.items
-  const propFilter = props.selectedFilterfilter
+  const propFilter = props.selectedFilter
   const list = !propFilter || propFilter === 'all' ? items : items.filter(i => i.fruit_type === propFilter);
 
     return (
