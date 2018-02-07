@@ -4,14 +4,7 @@ import Filter from './Filter';
 import FilteredFruitList from './FilteredFruitList.js';
 
 const FruitBasket = (props) => {
-    constructor() {
-      super();
-
-      this.state = {
-        filters: [],
-        selectedFilter: null
-      };
-    }
+  const filters = props.filter
 
   handleFilterChange = event => {
     console.log('new filter: ', event.target.value);
