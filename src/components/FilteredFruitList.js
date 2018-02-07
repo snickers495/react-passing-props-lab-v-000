@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 const FilteredFruitList = (props)=> {
   const items = props.items
+  
   componentDidMount() {
     fetch('/api/fruit')
       .then(response => response.json())
