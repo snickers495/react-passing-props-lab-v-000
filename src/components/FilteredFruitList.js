@@ -9,8 +9,7 @@ const FilteredFruitList = (props)=> {
       .then(items => this.setState({ items }));
   }
 
-  render() {
-  
+
     return (
       <ul className="fruit-list">
         {list.map((item, index) => <li key={index}>{item.char}</li>)}
