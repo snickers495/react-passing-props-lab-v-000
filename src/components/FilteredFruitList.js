@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class FilteredFruitList extends Component {
+const FilteredFruitList extends Component {
   constructor(props) {
     super(props);
 
