@@ -1,14 +1,7 @@
 import React, { Component } from 'react';
 
 const FilteredFruitList = (props)=> {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      items: []
-    };
-  }
-
+  const items = 
   componentDidMount() {
     fetch('/api/fruit')
       .then(response => response.json())
