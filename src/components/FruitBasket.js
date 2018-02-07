@@ -11,7 +11,7 @@ const FruitBasket = (props) => {
   render() {
     return (
       <div className="fruit-basket">
-        <Filter handleChange={this.handleFilterChange} />
+        <Filter handleChange={handleFilterChange} />
         <FilteredFruitList
           filter={this.state.selectedFilter} />
       </div>
