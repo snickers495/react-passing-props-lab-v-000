@@ -7,10 +7,7 @@ const FruitBasket = (props) => {
   const filters = props.filters
   const selectedFilter = props.selectedFilter
   const handleFilterChange = props.handleFilterChange
-  handleFilterChange = event => {
-    console.log('new filter: ', event.target.value);
-    this.setState({ selectedFilter: event.target.value });
-  }
+
 
   render() {
     return (
