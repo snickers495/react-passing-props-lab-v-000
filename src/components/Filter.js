@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 const Filter = (props) => {
-  
+  const filter = props.filter
 
   componentWillMount() {
     this.fetchFilters();
