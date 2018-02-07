@@ -6,8 +6,6 @@ const FilteredFruitList = (props)=> {
   const list = !propFilter || propFilter === 'all' ? items : items.filter(i => i.fruit_type === propFilter);
 
   
-
-
     return (
       <ul className="fruit-list">
         {list.map((item, index) => <li key={index}>{item.char}</li>)}
