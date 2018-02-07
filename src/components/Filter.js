@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-const Filter = () => {
+const Filter = (props) => {
   constructor() {
     super();
 
